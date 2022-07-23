@@ -36,6 +36,7 @@
     text-align: center;
     color: #ffffff;
     background-image: url(../images/pattern.jpg);
+    border: 5px solid #000000;
 }
 
 nav {
@@ -45,6 +46,7 @@ nav {
     background-image: url(../images/pattern.jpg);
     padding: 25px 35px 30px 50px;
     border-radius: 5%;
+    border: 5px solid #000000;
 }
 
 nav ul li {
@@ -78,4 +80,40 @@ article div {
     border: 10px #791e9a solid;
     width: 55%;
     padding: 10px;
+}
+
+/* About me end */
+
+/* Projects start */
+
+main {
+    background-color: #000000;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+/* Main project */
+
+.main-project {
+    text-align: center;
+}
+
+main h2 {
+    color: #ffffff;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.main-project-image {
+    width: 75%;
+    border: 5px solid #791e9a;
+}
+
+.main-project-image:hover {
+    filter: blur(2px);
 }
