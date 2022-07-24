@@ -88,7 +88,7 @@ article div {
 
 main {
     background-color: #000000;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 main h1 {
@@ -217,7 +217,7 @@ main h2 {
 /* Reach out start */
 
 .footer {
-    padding-top: 50px;
+    padding: 50px 50px;
     background-image: url(../images/header-background.jpg);
     display: flex;
     flex-wrap: wrap;
