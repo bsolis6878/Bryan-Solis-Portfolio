@@ -104,7 +104,7 @@ main h1 {
     text-align: center;
 }
 
-main h2 {
+.main-project h2 {
     color: #ffffff;
     padding-bottom: 20px;
     font-size: 30px;
@@ -124,30 +124,35 @@ main h2 {
 .column-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .column1 {
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .column2 {
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Project 1 */
 
 .project-1 {
-    padding: 30px 0px 0px 200px;
+    text-align: center;
+    margin: 25px 0px 0px 150px;
 }
 
 .project-1 h2 {
-    padding-left: 220px;
+    color: #ffffff;
+    padding-bottom: 15px;
+    font-size: 30px;
 }
 
 .project1-image {
-    width: 75%;
-    height: 325px;
+    width: 100%;
     border: 5px solid #791e9a;
 }
 
@@ -158,15 +163,18 @@ main h2 {
 /* Project 2 */
 
 .project-2 {
-    padding: 30px 0px 0px 200px;
+    text-align: center;
+    margin: 25px 0px 0px 150px;
 }
 
 .project-2 h2 {
-    padding-left: 200px;
+    color: #ffffff;
+    padding-bottom: 15px;
+    font-size: 30px;
 }
 
 .project2-image {
-    width: 75%;
+    width: 100%;
     border: 5px solid #791e9a;
 }
 
@@ -177,15 +185,18 @@ main h2 {
 /* Project 3 */
 
 .project-3 {
-    padding: 30px 0px 0px 300px;
+    text-align: center;
+    margin: 25px 50px 0px 0px;
 }
 
 .project-3 h2 {
-    padding-left: 150px;
+    color: #ffffff;
+    padding-bottom: 15px;
+    font-size: 30px;
 }
 
 .project3-image {
-    height: 350px;
+    width: 55%;
     border: 5px solid #791e9a;
 }
 
@@ -196,15 +207,18 @@ main h2 {
 /* Project 4 */
 
 .project-4 {
-    padding: 30px 0px 0px 250px;
+    text-align: center;
+    margin-right: 50px;
 }
 
 .project-4 h2 {
-    padding-left: 160px;
+    color: #ffffff;
+    padding-bottom: 15px;
+    font-size: 30px;
 }
 
 .project4-image {
-    width: 75%;
+    width: 80%;
     border: 5px solid #791e9a;
 }
 
@@ -243,6 +257,8 @@ main h2 {
 .reach-out ul {
     padding-top: 20px;
     font-size: 20px;
+    list-style-type: none;
+    line-height: 2;
 }
 
 /* Reach out end */
@@ -306,10 +322,5 @@ main h2 {
     .project4-image {
         width: 500px;
         height: 300px;
-    }
-
-    .reach-out ul {
-        list-style-type: none;
-        line-height: 2;
     }
 }
