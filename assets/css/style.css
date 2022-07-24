@@ -244,3 +244,72 @@ main h2 {
     padding-top: 20px;
     font-size: 20px;
 }
+
+/* Reach out end */
+
+/* Smaller screen responsiveness start */
+
+@media screen and (max-width: 980px) {
+    .column-container {
+        flex-direction: column;
+    }
+
+    .project-1 {
+        margin-left: 50px;
+    }
+
+    .project-1 h2 {
+        padding-left: 200px;
+    }
+
+    .project1-image {
+        width: 500px;
+        height: 300px;
+    }
+
+    .project-2 {
+        margin-left: 50px;
+    }
+
+    .project-2 h2 {
+        padding-left: 200px;
+    }
+
+    .project2-image {
+        width: 500px;
+        height: 300px;
+    }
+
+    .project-3 {
+        margin-left: 50px;
+        padding: 30px 0px 0px 200px;
+    }
+
+    .project-3 h2 {
+        padding-left: 200px;
+    }
+
+    .project3-image {
+        width: 500px;
+        height: 300px;
+    }
+
+    .project-4 {
+        margin-left: 50px;
+        padding: 30px 0px 0px 200px;
+    }
+
+    .project-4 h2 {
+        padding-left: 200px;
+    }
+
+    .project4-image {
+        width: 500px;
+        height: 300px;
+    }
+
+    .reach-out ul {
+        list-style-type: none;
+        line-height: 2;
+    }
+}
