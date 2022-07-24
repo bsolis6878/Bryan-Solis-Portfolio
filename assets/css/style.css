@@ -23,9 +23,6 @@
 
 .profile-picture {
     border-radius: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: initial;
     margin-right: 50px;
     border: 5px black solid;
 }
@@ -265,62 +262,60 @@ main h1 {
 
 /* Smaller screen responsiveness start */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 911px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .profile-picture {
+        margin: 10px 0px 20px 0px;
+    }
+
+    .main-project-image {
+        width: 80%;
+    }
+
     .column-container {
         flex-direction: column;
     }
 
+    .column1 {
+        width: 100%;
+    }
+
+    .column2 {
+        width: 100%;
+    }
+
     .project-1 {
-        margin-left: 50px;
+        margin: 25px 0px 0px 0px;
     }
-
-    .project-1 h2 {
-        padding-left: 200px;
-    }
-
+    
     .project1-image {
-        width: 500px;
-        height: 300px;
+        width: 75%;
     }
 
     .project-2 {
-        margin-left: 50px;
+        margin: 25px 0px 0px 0px;
     }
-
-    .project-2 h2 {
-        padding-left: 200px;
-    }
-
+    
     .project2-image {
-        width: 500px;
-        height: 300px;
+        width: 75%;
     }
 
     .project-3 {
-        margin-left: 50px;
-        padding: 30px 0px 0px 200px;
+        margin: 25px 0px 0px 0px;
     }
-
-    .project-3 h2 {
-        padding-left: 200px;
-    }
-
+    
     .project3-image {
-        width: 500px;
-        height: 300px;
+        width: 75%;
     }
 
     .project-4 {
-        margin-left: 50px;
-        padding: 30px 0px 0px 200px;
+        margin: 25px 0px 0px 0px;
     }
-
-    .project-4 h2 {
-        padding-left: 200px;
-    }
-
+    
     .project4-image {
-        width: 500px;
-        height: 300px;
+        width: 75%;
     }
 }
